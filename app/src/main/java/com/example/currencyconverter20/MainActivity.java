@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         Double dollarAmount = Double.parseDouble(dollarAmountEditTextNumber.getText().toString());
         Double inrAmount = dollarAmount * 82.83;
         Toast.makeText(MainActivity.this, inrAmount.toString(), Toast.LENGTH_LONG).show();
-        //Log.i("Amount", dollarAmountEditTextNumber.getText().toString());
+        Log.i("Amount", dollarAmountEditTextNumber.getText().toString());
     }
 
     @Override
